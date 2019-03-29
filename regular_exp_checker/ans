@@ -1,0 +1,64 @@
+Enterd String : [a|b]*
+ Enterd Regular Expr : abababregexec() failed.returning nonzero 1[student@localhost ~]$ ./regcheck
+
+ Enter the string to checkb*a
+
+ Enter the pattern to checkbbbbbba
+
+ Enterd String : b*a
+ Enterd Regular Expr : bbbbbbaregexec() failed.returning nonzero 1[student@localhost ~]$ ./regcheck
+
+ Enter the string to checkbbbbbbba
+
+ Enter the pattern to checkb*a
+
+ Enterd String : bbbbbbba
+ Enterd Regular Expr : b*a
+matched
+[student@localhost ~]$ ./regcheck
+
+ Enter the string to checkabababa
+
+ Enter the pattern to check[a|b]*
+
+ Enterd String : abababa
+ Enterd Regular Expr : [a|b]*
+matched
+[student@localhost ~]$ ./regcheck
+
+ Enter the string to checkaabbaabb  
+
+ Enter the pattern to checka[(a|b)*]b
+
+ Enterd String : aabbaabb
+ Enterd Regular Expr : a[(a|b)*]b
+matched
+[student@localhost ~]$ ./regcheck
+
+ Enter the string to checkhellohellohello
+
+ Enter the pattern to checkhello
+
+ Enterd String : hellohellohello
+ Enterd Regular Expr : hello
+matched
+\[student@localhost ~]$ ./regcheck
+
+ Enter the string to checkaaaa   
+
+ Enter the pattern to checkaa{2}
+
+ Enterd String : aaaa
+ Enterd Regular Expr : aa{2}
+matched
+[student@localhost ~]$ ./regcheck
+
+ Enter the string to checkhellohellohello
+
+ Enter the pattern to checkhello
+
+ Enterd String : hellohellohello
+ Enterd Regular Expr : hello
+matched
+[student@localhost ~]$ 
+
